@@ -1,0 +1,6 @@
+- S'han de poder cercar llibres per autor, títol i ISBN
+- S'han de poder cercar llibres per categories (thriller, històrica,...)
+- Hi ha usuaris que ja saben quin llibre volen (buscaran per títol o ISBN)
+- Hi ha usuaris que busquen llibres d'un autor en concret
+- Hi ha usuaris que busquen llibres d'un génere en concret
+- A la pàgina inicial poden sortir els llibres més venuts
