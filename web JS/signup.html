@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>EGB books</title>
+  </head>
+  <body>
+    <header class="bg-success text-light">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col my-auto">
+                    <a href="index.html" class="text-light" style="text-decoration: none"><h1>EGB books</h1></a>
+                </div>    
+                <div class="col text-center">
+                    <nav class="navbar">
+                        <form class="form-inline">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="search">
+                            <button class="btn btn-outline-light my-2" type="submit">Search</button>
+                        </form>
+                    </nav>
+                </div>
+                <div class="col text-right my-auto">
+                    <a class="btn btn-light mb-1" href="login.html" role="button">Log in</a>
+                    <a class="btn btn-light mb-1" href="signup.html" role="button">Sign up</a>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar nav-pills nav-fill navbar-light bg-light navbar-expand-md">
+            <div class="container">            
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="myTogglerNav">
+                    <div class="navbar-nav">
+                        <a href="index.html" class="nav-item nav-link text-dark my-auto">Home</a>
+                        <a href="#art" class="nav-item nav-link text-dark my-auto" title="Art books">Art books</a>
+                        <a href="#crime" class="nav-item nav-link text-dark my-auto" title="Crime books">Crime books</a>
+                        <a href="#fantasy" class="nav-item nav-link text-dark my-auto" title="Fantasy books">Fantasy books</a>
+                        <a href="#funny" class="nav-item nav-link text-dark my-auto" title="Funny books">Funny books</a>
+                        <a href="#history" class="nav-item nav-link text-dark my-auto" title="History books">History books</a>
+                        <a href="#horror" class="nav-item nav-link text-dark my-auto" title="Horror books">Horror books</a>
+                        <a href="#romance" class="nav-item nav-link text-dark my-auto" title="Romance books">Romance books</a>
+                        <a href="#science_fiction" class="nav-item nav-link text-dark my-auto" title="Science fiction books">Science fiction books</a>
+                        <a href="#travel" class="nav-item nav-link text-dark my-auto" title="Travel books">Travel books</a>
+                    </div>
+                </div>
+            </div>
+        </nav>   
+    </header>
+    <main class="col text-center mt-5">
+        <form class="form-signup" style="max-width: 330px; margin: auto" novalidate onfocusout="return validate();">
+            <h1 class="h3 mb-3 font-weight-normal">Please sign up</h1>
+            <label for="inputEmail" class="sr-only">Email address</label>
+            <input type="email" id="inputEmail" class="form-control mb-3" placeholder="Email address"autofocus="">
+            <label for="inputPassword" class="sr-only">Password</label>
+            <input type="password" id="inputPassword" class="form-control mb-3" placeholder="Password">
+            <label for="confirmPassword" class="sr-only">Repeat password</label>
+            <input type="password" id="confirmPassword" class="form-control" placeholder="Repeat password">
+            <div class="form-group mt-1">
+                <label for="sel1">Province</label>
+                <select class="form-control" id="sel1">
+                    <option>Álava</option>
+                    <option>Albacete</option>
+                    <option>Alicante</option>
+                    <option>Almería</option>
+                    <option>Asturias</option>
+                    <option>Ávila</option>
+                    <option>Badajoz</option>
+                    <option>Baleares</option>
+                    <option>Barcelona</option>
+                    <option>Burgos</option>
+                    <option>Cáceres</option>
+                    <option>Cádiz</option>
+                    <option>Cantabria</option>
+                    <option>Castellón</option>
+                    <option>Ceuta</option>
+                    <option>Ciudad Real</option>
+                    <option>Córdoba</option>
+                    <option>La Coruña</option>
+                    <option>Cuenca</option>
+                    <option>Gerona</option>
+                    <option>Granada</option>
+                    <option>Guadalajara</option>
+                    <option>Guipúzcoa</option>
+                    <option>Huelva</option>
+                    <option>Huesca</option>
+                    <option>Jaén</option>
+                    <option>León</option>
+                    <option>Lérida</option>
+                    <option>Lugo</option>
+                    <option>Madrid</option>
+                    <option>Málaga</option>
+                    <option>Melilla</option>
+                    <option>Murcia</option>
+                    <option>Navarra</option>
+                    <option>Orense</option>
+                    <option>Palencia</option>
+                    <option>Las Palmas</option>
+                    <option>Pontevedra</option>
+                    <option>La Rioja</option>
+                    <option>Salamanca</option>
+                    <option>Segovia</option>
+                    <option>Sevilla</option>
+                    <option>Soria</option>
+                    <option>Tarragona</option>
+                    <option>Santa Cruz de Tenerife</option>
+                    <option>Teruel</option>
+                    <option>Toledo</option>
+                    <option>Valencia</option>
+                    <option>Valladolid</option>
+                    <option>Vizcaya</option>
+                    <option>Zamora</option>
+                    <option>Zaragoza</option>
+                </select>
+            </div>
+            <button class="btn btn-lg btn-success btn-block mt-3" type="submit">Sign up</button>
+            
+
+        </form>  
+    </main>
+    <footer>
+        <div class="container text-center mt-3">
+            <p>Copyright © 2019 EGB books</p>
+        </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <script src="JS/script-signup.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
