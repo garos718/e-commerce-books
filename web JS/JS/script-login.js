@@ -10,13 +10,18 @@ function validate() {
     if(regEx.test(email)) {
         document.getElementById("inputEmail").classList.remove("is-invalid");
         document.getElementById("inputEmail").classList.add("is-valid");
+        document.getElementById("emailHelpBlock").classList.add("d-none");
     } else {
         document.getElementById("inputEmail").classList.add("is-invalid");
+        document.getElementById("emailHelpBlock").classList.remove("d-none");
     }
       if(pass.trim() !== "") {
         document.getElementById("inputPassword").classList.add("is-valid");
+        document.getElementById("passHelpBlock").classList.add("d-none");
     } else {
         document.getElementByID("inputPassword").classList.add("is-invalid");
+        document.getElementById("passHelpBlock").classList.remove("d-none");
+
     }
 }
 

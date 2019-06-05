@@ -57,10 +57,13 @@
             <h1 class="h3 mb-3 font-weight-normal">Please sign up</h1>
             <label for="inputEmail" class="sr-only">Email address</label>
             <input type="email" id="inputEmail" class="form-control mb-3" placeholder="Email address"autofocus="">
+            <small id="emailHelpBlock" class="form-text text-muted d-none text-danger mb-3">This is not a valid email address</small>
             <label for="inputPassword" class="sr-only">Password</label>
             <input type="password" id="inputPassword" class="form-control mb-3" placeholder="Password">
+            <small id="passHelpBlock" class="form-text text-muted d-none text-danger mb-3">Password must be at least 1 character long</small>
             <label for="confirmPassword" class="sr-only">Repeat password</label>
             <input type="password" id="confirmPassword" class="form-control" placeholder="Repeat password">
+            <small id="passConfirmHelpBlock" class="form-text text-muted d-none text-danger mb-3">Passwords don't match</small>
             <div class="form-group mt-1">
                 <label for="sel1">Province</label>
                 <select class="form-control" id="sel1">
